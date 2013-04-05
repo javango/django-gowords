@@ -17,19 +17,15 @@ http://example.com/go/google/ would result in the user being redirected to www.g
 Usage
 ======
 
-project settings.py::
-
-	Add to INSTALLED_APPS
+Add to INSTALLED_APPS in settings.py::
 	
 	'gowords',
 	
-Install database::
-
-    South is used for migrations
+Install database using south::
     
     ./manage.py migrate gowords
     
-    or without South
+Install database without South
     
     ./manage.py syncdb
     
