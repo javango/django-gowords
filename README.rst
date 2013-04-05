@@ -9,8 +9,8 @@ Example
 
 Goword::
 
-slug - google
-url - http://www.google.com
+ - slug: google
+ - url: http://www.google.com
 
 http://example.com/go/google/ would result in the user being redirected to www.google.com
 
