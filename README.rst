@@ -25,7 +25,7 @@ Install database using south::
     
     ./manage.py migrate gowords
     
-Install database without South
+Install database without South::
     
     ./manage.py syncdb
     
